@@ -1,3 +1,37 @@
+GIT
+  remote: https://github.com/spree-contrib/better_spree_paypal_express.git
+  revision: 80321ae1ec0ed396eb3d874db93f77ff4e5be4e5
+  specs:
+    spree_paypal_express (3.3.0)
+      paypal-sdk-merchant
+      spree_auth_devise (>= 3.1.0, < 4.0)
+      spree_core (>= 3.1.0, < 4.0)
+      spree_extension
+
+GIT
+  remote: https://github.com/spree-contrib/spree_recently_viewed.git
+  revision: 6a7eb6a80cef9fad971e6ba8671ff472c10fab19
+  specs:
+    spree_recently_viewed (3.3.0)
+      spree_core (>= 3.1.0, < 4.0)
+
+GIT
+  remote: https://github.com/spree-contrib/spree_related_products.git
+  revision: be54f698629eba70b8135e7f5cacbc57962aee71
+  specs:
+    spree_related_products (3.3.0)
+      spree_backend (>= 3.1.0, < 4.0)
+      spree_extension
+
+GIT
+  remote: https://github.com/spree-contrib/spree_sitemap.git
+  revision: b6cc49a855e9a8188a0ed005a24b487ac3ba7b7f
+  specs:
+    spree_sitemap (3.3.1)
+      sitemap_generator
+      spree_core (>= 3.1.0, < 4.0)
+      spree_extension
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -170,6 +204,11 @@ GEM
       mimemagic (~> 0.3.0)
     paranoia (2.3.1)
       activerecord (>= 4.0, < 5.2)
+    paypal-sdk-core (0.3.4)
+      multi_json (~> 1.0)
+      xml-simple
+    paypal-sdk-merchant (1.117.2)
+      paypal-sdk-core (~> 0.3.0)
     pg (0.21.0)
     polyamorous (1.3.1)
       activerecord (>= 3.0)
@@ -244,32 +283,34 @@ GEM
     selenium-webdriver (3.6.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
-    spree (3.3.2)
-      spree_api (= 3.3.2)
-      spree_backend (= 3.3.2)
-      spree_cmd (= 3.3.2)
-      spree_core (= 3.3.2)
-      spree_frontend (= 3.3.2)
-      spree_sample (= 3.3.2)
-    spree_api (3.3.2)
+    sitemap_generator (6.0.0)
+      builder (~> 3.0)
+    spree (3.4.1)
+      spree_api (= 3.4.1)
+      spree_backend (= 3.4.1)
+      spree_cmd (= 3.4.1)
+      spree_core (= 3.4.1)
+      spree_frontend (= 3.4.1)
+      spree_sample (= 3.4.1)
+    spree_api (3.4.1)
       rabl (~> 0.13.1)
-      spree_core (= 3.3.2)
+      spree_core (= 3.4.1)
       versioncake (~> 3.3.0)
     spree_auth_devise (3.3.1)
       devise (~> 4.3.0)
       devise-encryptable (= 0.2.0)
       spree_core (>= 3.1.0, < 4.0)
       spree_extension
-    spree_backend (3.3.2)
+    spree_backend (3.4.1)
       bootstrap-sass (~> 3.3)
       jquery-rails (~> 4.3)
       jquery-ui-rails (~> 6.0.1)
       select2-rails (= 3.5.9.1)
-      spree_api (= 3.3.2)
-      spree_core (= 3.3.2)
-    spree_cmd (3.3.2)
+      spree_api (= 3.4.1)
+      spree_core (= 3.4.1)
+    spree_cmd (3.4.1)
       thor (~> 0.14)
-    spree_core (3.3.2)
+    spree_core (3.4.1)
       activemerchant (~> 1.67)
       acts-as-taggable-on (~> 5.0)
       acts_as_list (~> 0.8)
@@ -294,17 +335,17 @@ GEM
       twitter_cldr (~> 4.3)
     spree_extension (0.0.5)
       activerecord (>= 4.2)
-    spree_frontend (3.3.2)
+    spree_frontend (3.4.1)
       bootstrap-sass (>= 3.3.5.1, < 3.4)
       canonical-rails (~> 0.2.0)
       jquery-rails (~> 4.3)
-      spree_api (= 3.3.2)
-      spree_core (= 3.3.2)
+      spree_api (= 3.4.1)
+      spree_core (= 3.4.1)
     spree_gateway (3.3.0)
       spree_core (>= 3.1.0, < 4.0)
       spree_extension
-    spree_sample (3.3.2)
-      spree_core (= 3.3.2)
+    spree_sample (3.4.1)
+      spree_core (= 3.4.1)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -354,6 +395,7 @@ GEM
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
+    xml-simple (1.1.5)
     xpath (2.1.0)
       nokogiri (~> 1.3)
 
@@ -371,9 +413,13 @@ DEPENDENCIES
   rails (~> 5.1.4)
   sass-rails (~> 5.0)
   selenium-webdriver
-  spree (~> 3.3.0)
+  spree (~> 3.4.0)
   spree_auth_devise (~> 3.3)
   spree_gateway (~> 3.3)
+  spree_paypal_express!
+  spree_recently_viewed!
+  spree_related_products!
+  spree_sitemap!
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)

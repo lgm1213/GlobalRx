@@ -8,3 +8,1660 @@
  *= require_self
  *= require_tree .
 */
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1440px;
+	 height: 2860px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #ColorFill1 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1440px;
+	 height: 2860px;
+	 z-index:1;
+} 
+
+ #Rectangle1 
+{ 
+	 left: -1px; 
+	 top: 148px; 
+	 position: absolute; 
+	 width: 1442px;
+	 height: 2340px;
+	 z-index:2;
+} 
+
+ #BG 
+{ 
+	 left: -1px; 
+	 top: 2788px; 
+	 position: absolute; 
+	 width: 1442px;
+	 height: 73px;
+	 z-index:3;
+} 
+
+ #2017MedicplusAhAsifA 
+{ 
+	 left: 557px; 
+	 top: 2818px; 
+	 position: absolute; 
+	 width: 325px;
+	 height: 14px;
+	 z-index:4;
+} 
+
+ #HelpHelpCenterSuppor 
+{ 
+	 left: 234px; 
+	 top: 2568px; 
+	 position: absolute; 
+	 width: 79px;
+	 height: 162px;
+	 z-index:5;
+} 
+
+ #PolicyTermsPaymentRe 
+{ 
+	 left: 434px; 
+	 top: 2567px; 
+	 position: absolute; 
+	 width: 59px;
+	 height: 136px;
+	 z-index:6;
+} 
+
+ #CommunityBlogForumsM 
+{ 
+	 left: 635px; 
+	 top: 2567px; 
+	 position: absolute; 
+	 width: 97px;
+	 height: 133px;
+	 z-index:7;
+} 
+
+ #AboutDummytextisalso 
+{ 
+	 left: 835px; 
+	 top: 2567px; 
+	 position: absolute; 
+	 width: 396px;
+	 height: 117px;
+	 z-index:8;
+} 
+
+ #Rectangle74 
+{ 
+	 left: 629px; 
+	 top: 2365px; 
+	 position: absolute; 
+	 width: 183px;
+	 height: 50px;
+	 z-index:9;
+} 
+
+ #Loadmore 
+{ 
+	 left: 677px; 
+	 top: 2384px; 
+	 position: absolute; 
+	 width: 86px;
+	 height: 13px;
+	 z-index:10;
+} 
+
+ #Rectangle5copy 
+{ 
+	 left: 1083px; 
+	 top: 2005px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 303px;
+	 z-index:11;
+} 
+
+ #ImageHolder14 
+{ 
+	 left: 1085px; 
+	 top: 2007px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:12;
+} 
+
+ #MedicineNameHere 
+{ 
+	 left: 1122px; 
+	 top: 2245px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:13;
+} 
+
+ #USD499 
+{ 
+	 left: 1157px; 
+	 top: 2272px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 12px;
+	 z-index:14;
+} 
+
+ #Rectangle5copy_0 
+{ 
+	 left: 846px; 
+	 top: 2005px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 303px;
+	 z-index:15;
+} 
+
+ #ImageHolder31 
+{ 
+	 left: 848px; 
+	 top: 2007px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:16;
+} 
+
+ #MedicineNameHere_0 
+{ 
+	 left: 885px; 
+	 top: 2245px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:17;
+} 
+
+ #USD900 
+{ 
+	 left: 920px; 
+	 top: 2272px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 12px;
+	 z-index:18;
+} 
+
+ #Rectangle5copy_1 
+{ 
+	 left: 608px; 
+	 top: 2005px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 303px;
+	 z-index:19;
+} 
+
+ #ImageHolder 
+{ 
+	 left: 610px; 
+	 top: 2007px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:20;
+} 
+
+ #MedicineNameHere_1 
+{ 
+	 left: 647px; 
+	 top: 2245px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:21;
+} 
+
+ #USD400 
+{ 
+	 left: 682px; 
+	 top: 2272px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 12px;
+	 z-index:22;
+} 
+
+ #Rectangle5copy_2 
+{ 
+	 left: 371px; 
+	 top: 2005px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 303px;
+	 z-index:23;
+} 
+
+ #ImageHolder41 
+{ 
+	 left: 373px; 
+	 top: 2007px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:24;
+} 
+
+ #MedicineNameHere_2 
+{ 
+	 left: 410px; 
+	 top: 2245px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:25;
+} 
+
+ #USD1188 
+{ 
+	 left: 441px; 
+	 top: 2272px; 
+	 position: absolute; 
+	 width: 75px;
+	 height: 12px;
+	 z-index:26;
+} 
+
+ #Rectangle5copy_3 
+{ 
+	 left: 134px; 
+	 top: 2005px; 
+	 position: absolute; 
+	 width: 221px;
+	 height: 303px;
+	 z-index:27;
+} 
+
+ #ImageHolder15 
+{ 
+	 left: 135px; 
+	 top: 2007px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:28;
+} 
+
+ #MedicineNameHere_3 
+{ 
+	 left: 172px; 
+	 top: 2245px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:29;
+} 
+
+ #USD1399 
+{ 
+	 left: 203px; 
+	 top: 2272px; 
+	 position: absolute; 
+	 width: 75px;
+	 height: 12px;
+	 z-index:30;
+} 
+
+ #Seeall 
+{ 
+	 left: 1241px; 
+	 top: 1959px; 
+	 position: absolute; 
+	 width: 47px;
+	 height: 13px;
+	 z-index:31;
+} 
+
+ #keyboardarrowright 
+{ 
+	 left: 1298px; 
+	 top: 1960px; 
+	 position: absolute; 
+	 width: 7px;
+	 height: 11px;
+	 z-index:32;
+} 
+
+ #Pulmonary 
+{ 
+	 left: 135px; 
+	 top: 1954px; 
+	 position: absolute; 
+	 width: 129px;
+	 height: 23px;
+	 z-index:33;
+} 
+
+ #Rectangle5copy_4 
+{ 
+	 left: 1083px; 
+	 top: 1596px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 303px;
+	 z-index:34;
+} 
+
+ #ImageHolder6 
+{ 
+	 left: 1085px; 
+	 top: 1598px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:35;
+} 
+
+ #MedicineNameHere_4 
+{ 
+	 left: 1122px; 
+	 top: 1836px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:36;
+} 
+
+ #USD1200 
+{ 
+	 left: 1153px; 
+	 top: 1863px; 
+	 position: absolute; 
+	 width: 75px;
+	 height: 12px;
+	 z-index:37;
+} 
+
+ #Rectangle5copy_5 
+{ 
+	 left: 846px; 
+	 top: 1596px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 303px;
+	 z-index:38;
+} 
+
+ #ImageHolder5 
+{ 
+	 left: 848px; 
+	 top: 1598px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:39;
+} 
+
+ #MedicineNameHere_5 
+{ 
+	 left: 885px; 
+	 top: 1836px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:40;
+} 
+
+ #USD999 
+{ 
+	 left: 920px; 
+	 top: 1863px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 12px;
+	 z-index:41;
+} 
+
+ #Rectangle5copy_6 
+{ 
+	 left: 608px; 
+	 top: 1596px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 303px;
+	 z-index:42;
+} 
+
+ #ImageHolder131 
+{ 
+	 left: 610px; 
+	 top: 1598px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:43;
+} 
+
+ #MedicineNameHere_6 
+{ 
+	 left: 647px; 
+	 top: 1836px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:44;
+} 
+
+ #USD1188_0 
+{ 
+	 left: 678px; 
+	 top: 1863px; 
+	 position: absolute; 
+	 width: 75px;
+	 height: 12px;
+	 z-index:45;
+} 
+
+ #Rectangle5copy_7 
+{ 
+	 left: 371px; 
+	 top: 1596px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 303px;
+	 z-index:46;
+} 
+
+ #ImageHolder10 
+{ 
+	 left: 373px; 
+	 top: 1598px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:47;
+} 
+
+ #MedicineNameHere_7 
+{ 
+	 left: 410px; 
+	 top: 1836px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:48;
+} 
+
+ #USD400_0 
+{ 
+	 left: 445px; 
+	 top: 1863px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 12px;
+	 z-index:49;
+} 
+
+ #Rectangle5copy_8 
+{ 
+	 left: 134px; 
+	 top: 1596px; 
+	 position: absolute; 
+	 width: 221px;
+	 height: 303px;
+	 z-index:50;
+} 
+
+ #ImageHolder4 
+{ 
+	 left: 135px; 
+	 top: 1598px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:51;
+} 
+
+ #MedicineNameHere_8 
+{ 
+	 left: 172px; 
+	 top: 1836px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:52;
+} 
+
+ #USD900_0 
+{ 
+	 left: 207px; 
+	 top: 1863px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 12px;
+	 z-index:53;
+} 
+
+ #Seeall_0 
+{ 
+	 left: 1241px; 
+	 top: 1550px; 
+	 position: absolute; 
+	 width: 47px;
+	 height: 13px;
+	 z-index:54;
+} 
+
+ #keyboardarrowright_0 
+{ 
+	 left: 1298px; 
+	 top: 1551px; 
+	 position: absolute; 
+	 width: 7px;
+	 height: 11px;
+	 z-index:55;
+} 
+
+ #Cardiology 
+{ 
+	 left: 134px; 
+	 top: 1544px; 
+	 position: absolute; 
+	 width: 130px;
+	 height: 25px;
+	 z-index:56;
+} 
+
+ #Rectangle5copy_9 
+{ 
+	 left: 1083px; 
+	 top: 1187px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 303px;
+	 z-index:57;
+} 
+
+ #ImageHolder13 
+{ 
+	 left: 1085px; 
+	 top: 1189px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:58;
+} 
+
+ #MedicineNameHere_9 
+{ 
+	 left: 1122px; 
+	 top: 1427px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:59;
+} 
+
+ #USD700 
+{ 
+	 left: 1157px; 
+	 top: 1454px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 12px;
+	 z-index:60;
+} 
+
+ #Rectangle5copy_10 
+{ 
+	 left: 846px; 
+	 top: 1187px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 303px;
+	 z-index:61;
+} 
+
+ #ImageHolder11 
+{ 
+	 left: 848px; 
+	 top: 1189px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:62;
+} 
+
+ #MedicineNameHere_10 
+{ 
+	 left: 885px; 
+	 top: 1427px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:63;
+} 
+
+ #USD1299 
+{ 
+	 left: 916px; 
+	 top: 1454px; 
+	 position: absolute; 
+	 width: 75px;
+	 height: 12px;
+	 z-index:64;
+} 
+
+ #Rectangle5copy_11 
+{ 
+	 left: 608px; 
+	 top: 1187px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 303px;
+	 z-index:65;
+} 
+
+ #ImageHolder3 
+{ 
+	 left: 610px; 
+	 top: 1189px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:66;
+} 
+
+ #BG_0 
+{ 
+	 left: 612px; 
+	 top: 1407px; 
+	 position: absolute; 
+	 width: 214px;
+	 height: 39px;
+	 z-index:67;
+} 
+
+ #AddtoCard 
+{ 
+	 left: 673px; 
+	 top: 1422px; 
+	 position: absolute; 
+	 width: 74px;
+	 height: 10px;
+	 z-index:68;
+} 
+
+ #layer_69 
+{ 
+	 left: 756px; 
+	 top: 1422px; 
+	 position: absolute; 
+	 width: 10px;
+	 height: 10px;
+	 z-index:69;
+} 
+
+ #Rectangle74copy 
+{ 
+	 left: 612px; 
+	 top: 1446px; 
+	 position: absolute; 
+	 width: 214px;
+	 height: 39px;
+	 z-index:70;
+} 
+
+ #QuickView 
+{ 
+	 left: 674px; 
+	 top: 1460px; 
+	 position: absolute; 
+	 width: 69px;
+	 height: 12px;
+	 z-index:71;
+} 
+
+ #removeredeye 
+{ 
+	 left: 752px; 
+	 top: 1462px; 
+	 position: absolute; 
+	 width: 14px;
+	 height: 9px;
+	 z-index:72;
+} 
+
+ #Rectangle5copy_12 
+{ 
+	 left: 371px; 
+	 top: 1187px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 303px;
+	 z-index:73;
+} 
+
+ #ImageHolder12 
+{ 
+	 left: 373px; 
+	 top: 1189px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:74;
+} 
+
+ #MedicineNameHere_11 
+{ 
+	 left: 410px; 
+	 top: 1427px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:75;
+} 
+
+ #USD1199 
+{ 
+	 left: 441px; 
+	 top: 1454px; 
+	 position: absolute; 
+	 width: 75px;
+	 height: 12px;
+	 z-index:76;
+} 
+
+ #Rectangle5copy_13 
+{ 
+	 left: 134px; 
+	 top: 1187px; 
+	 position: absolute; 
+	 width: 221px;
+	 height: 303px;
+	 z-index:77;
+} 
+
+ #ImageHolder2 
+{ 
+	 left: 135px; 
+	 top: 1189px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:78;
+} 
+
+ #MedicineNameHere_12 
+{ 
+	 left: 172px; 
+	 top: 1427px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:79;
+} 
+
+ #USD400_1 
+{ 
+	 left: 207px; 
+	 top: 1454px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 12px;
+	 z-index:80;
+} 
+
+ #Seeall_1 
+{ 
+	 left: 1241px; 
+	 top: 1139px; 
+	 position: absolute; 
+	 width: 47px;
+	 height: 13px;
+	 z-index:81;
+} 
+
+ #keyboardarrowright_1 
+{ 
+	 left: 1298px; 
+	 top: 1140px; 
+	 position: absolute; 
+	 width: 7px;
+	 height: 11px;
+	 z-index:82;
+} 
+
+ #Neurologist 
+{ 
+	 left: 135px; 
+	 top: 1135px; 
+	 position: absolute; 
+	 width: 140px;
+	 height: 25px;
+	 z-index:83;
+} 
+
+ #Rectangle5copy_14 
+{ 
+	 left: 1083px; 
+	 top: 778px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 303px;
+	 z-index:84;
+} 
+
+ #ImageHolder1 
+{ 
+	 left: 1085px; 
+	 top: 780px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:85;
+} 
+
+ #MedicineNameHere_13 
+{ 
+	 left: 1122px; 
+	 top: 1018px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:86;
+} 
+
+ #USD1288 
+{ 
+	 left: 1153px; 
+	 top: 1045px; 
+	 position: absolute; 
+	 width: 75px;
+	 height: 12px;
+	 z-index:87;
+} 
+
+ #Rectangle5copy_15 
+{ 
+	 left: 846px; 
+	 top: 778px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 303px;
+	 z-index:88;
+} 
+
+ #ImageHolder611 
+{ 
+	 left: 848px; 
+	 top: 780px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:89;
+} 
+
+ #MedicineNameHere_14 
+{ 
+	 left: 885px; 
+	 top: 1018px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:90;
+} 
+
+ #USD499_0 
+{ 
+	 left: 920px; 
+	 top: 1045px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 12px;
+	 z-index:91;
+} 
+
+ #Rectangle5copy_16 
+{ 
+	 left: 608px; 
+	 top: 778px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 303px;
+	 z-index:92;
+} 
+
+ #ImageHolder8 
+{ 
+	 left: 610px; 
+	 top: 780px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:93;
+} 
+
+ #MedicineNameHere_15 
+{ 
+	 left: 647px; 
+	 top: 1018px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:94;
+} 
+
+ #USD350 
+{ 
+	 left: 682px; 
+	 top: 1045px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 12px;
+	 z-index:95;
+} 
+
+ #Rectangle5copy_17 
+{ 
+	 left: 371px; 
+	 top: 778px; 
+	 position: absolute; 
+	 width: 222px;
+	 height: 303px;
+	 z-index:96;
+} 
+
+ #ImageHolder7 
+{ 
+	 left: 373px; 
+	 top: 780px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:97;
+} 
+
+ #MedicineNameHere_16 
+{ 
+	 left: 410px; 
+	 top: 1018px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:98;
+} 
+
+ #USD1199_0 
+{ 
+	 left: 441px; 
+	 top: 1045px; 
+	 position: absolute; 
+	 width: 75px;
+	 height: 12px;
+	 z-index:99;
+} 
+
+ #Rectangle5copy_18 
+{ 
+	 left: 134px; 
+	 top: 778px; 
+	 position: absolute; 
+	 width: 221px;
+	 height: 303px;
+	 z-index:100;
+} 
+
+ #ImageHolder9 
+{ 
+	 left: 135px; 
+	 top: 780px; 
+	 position: absolute; 
+	 width: 219px;
+	 height: 215px;
+	 z-index:101;
+} 
+
+ #MedicineNameHere_17 
+{ 
+	 left: 172px; 
+	 top: 1018px; 
+	 position: absolute; 
+	 width: 137px;
+	 height: 11px;
+	 z-index:102;
+} 
+
+ #USD2900 
+{ 
+	 left: 203px; 
+	 top: 1045px; 
+	 position: absolute; 
+	 width: 75px;
+	 height: 12px;
+	 z-index:103;
+} 
+
+ #LastViewed 
+{ 
+	 left: 135px; 
+	 top: 731px; 
+	 position: absolute; 
+	 width: 144px;
+	 height: 20px;
+	 z-index:104;
+} 
+
+ #SearchBG 
+{ 
+	 left: 969px; 
+	 top: 685px; 
+	 position: absolute; 
+	 width: 337px;
+	 height: 48px;
+	 z-index:105;
+} 
+
+ #Rectangle3copy8 
+{ 
+	 left: 969px; 
+	 top: 685px; 
+	 position: absolute; 
+	 width: 64px;
+	 height: 48px;
+	 z-index:106;
+} 
+
+ #Rectangle3copy9 
+{ 
+	 left: 1253px; 
+	 top: 685px; 
+	 position: absolute; 
+	 width: 53px;
+	 height: 48px;
+	 z-index:107;
+} 
+
+ #dropdownicon 
+{ 
+	 left: 1008px; 
+	 top: 707px; 
+	 position: absolute; 
+	 width: 10px;
+	 height: 5px;
+	 z-index:108;
+} 
+
+ #All 
+{ 
+	 left: 986px; 
+	 top: 704px; 
+	 position: absolute; 
+	 width: 18px;
+	 height: 12px;
+	 z-index:109;
+} 
+
+ #Searchhere 
+{ 
+	 left: 1049px; 
+	 top: 704px; 
+	 position: absolute; 
+	 width: 89px;
+	 height: 11px;
+	 z-index:110;
+} 
+
+ #Searchicon 
+{ 
+	 left: 1271px; 
+	 top: 701px; 
+	 position: absolute; 
+	 width: 17px;
+	 height: 17px;
+	 z-index:111;
+} 
+
+ #BG_1 
+{ 
+	 left: -1px; 
+	 top: 148px; 
+	 position: absolute; 
+	 width: 337px;
+	 height: 495px;
+	 z-index:112;
+} 
+
+ #Shape2 
+{ 
+	 left: -10px; 
+	 top: 269px; 
+	 position: absolute; 
+	 width: 425px;
+	 height: 4px;
+	 z-index:113;
+} 
+
+ #Shape2copy 
+{ 
+	 left: -10px; 
+	 top: 331px; 
+	 position: absolute; 
+	 width: 425px;
+	 height: 4px;
+	 z-index:114;
+} 
+
+ #Shape2copy2 
+{ 
+	 left: -10px; 
+	 top: 392px; 
+	 position: absolute; 
+	 width: 425px;
+	 height: 4px;
+	 z-index:115;
+} 
+
+ #Shape2copy3 
+{ 
+	 left: -10px; 
+	 top: 454px; 
+	 position: absolute; 
+	 width: 425px;
+	 height: 4px;
+	 z-index:116;
+} 
+
+ #Shape2copy4 
+{ 
+	 left: -10px; 
+	 top: 516px; 
+	 position: absolute; 
+	 width: 425px;
+	 height: 4px;
+	 z-index:117;
+} 
+
+ #Shape2copy5 
+{ 
+	 left: -10px; 
+	 top: 577px; 
+	 position: absolute; 
+	 width: 425px;
+	 height: 4px;
+	 z-index:118;
+} 
+
+ #Shape2copy6 
+{ 
+	 left: -10px; 
+	 top: 639px; 
+	 position: absolute; 
+	 width: 425px;
+	 height: 4px;
+	 z-index:119;
+} 
+
+ #layer_120 
+{ 
+	 left: 278px; 
+	 top: 235px; 
+	 position: absolute; 
+	 width: 6px;
+	 height: 11px;
+	 z-index:120;
+} 
+
+ #layer_121 
+{ 
+	 left: 278px; 
+	 top: 297px; 
+	 position: absolute; 
+	 width: 6px;
+	 height: 11px;
+	 z-index:121;
+} 
+
+ #layer_122 
+{ 
+	 left: 278px; 
+	 top: 358px; 
+	 position: absolute; 
+	 width: 6px;
+	 height: 11px;
+	 z-index:122;
+} 
+
+ #layer_123 
+{ 
+	 left: 278px; 
+	 top: 420px; 
+	 position: absolute; 
+	 width: 6px;
+	 height: 11px;
+	 z-index:123;
+} 
+
+ #layer_124 
+{ 
+	 left: 278px; 
+	 top: 482px; 
+	 position: absolute; 
+	 width: 6px;
+	 height: 11px;
+	 z-index:124;
+} 
+
+ #layer_125 
+{ 
+	 left: 278px; 
+	 top: 543px; 
+	 position: absolute; 
+	 width: 6px;
+	 height: 11px;
+	 z-index:125;
+} 
+
+ #layer_126 
+{ 
+	 left: 278px; 
+	 top: 605px; 
+	 position: absolute; 
+	 width: 6px;
+	 height: 11px;
+	 z-index:126;
+} 
+
+ #Dental 
+{ 
+	 left: 106px; 
+	 top: 235px; 
+	 position: absolute; 
+	 width: 45px;
+	 height: 12px;
+	 z-index:127;
+} 
+
+ #Urology 
+{ 
+	 left: 106px; 
+	 top: 295px; 
+	 position: absolute; 
+	 width: 55px;
+	 height: 15px;
+	 z-index:128;
+} 
+
+ #Pediatric 
+{ 
+	 left: 106px; 
+	 top: 358px; 
+	 position: absolute; 
+	 width: 62px;
+	 height: 12px;
+	 z-index:129;
+} 
+
+ #Cardiology_0 
+{ 
+	 left: 106px; 
+	 top: 418px; 
+	 position: absolute; 
+	 width: 77px;
+	 height: 15px;
+	 z-index:130;
+} 
+
+ #Neurologist_0 
+{ 
+	 left: 106px; 
+	 top: 480px; 
+	 position: absolute; 
+	 width: 82px;
+	 height: 15px;
+	 z-index:131;
+} 
+
+ #Otology 
+{ 
+	 left: 106px; 
+	 top: 541px; 
+	 position: absolute; 
+	 width: 57px;
+	 height: 15px;
+	 z-index:132;
+} 
+
+ #Pulmonary_0 
+{ 
+	 left: 106px; 
+	 top: 603px; 
+	 position: absolute; 
+	 width: 76px;
+	 height: 15px;
+	 z-index:133;
+} 
+
+ #Dental_0 
+{ 
+	 left: 54px; 
+	 top: 233px; 
+	 position: absolute; 
+	 width: 16px;
+	 height: 15px;
+	 z-index:134;
+} 
+
+ #Urology_0 
+{ 
+	 left: 53px; 
+	 top: 295px; 
+	 position: absolute; 
+	 width: 17px;
+	 height: 15px;
+	 z-index:135;
+} 
+
+ #pediatric 
+{ 
+	 left: 54px; 
+	 top: 358px; 
+	 position: absolute; 
+	 width: 16px;
+	 height: 12px;
+	 z-index:136;
+} 
+
+ #cardiology 
+{ 
+	 left: 56px; 
+	 top: 418px; 
+	 position: absolute; 
+	 width: 12px;
+	 height: 15px;
+	 z-index:137;
+} 
+
+ #neurology 
+{ 
+	 left: 54px; 
+	 top: 480px; 
+	 position: absolute; 
+	 width: 15px;
+	 height: 14px;
+	 z-index:138;
+} 
+
+ #otology 
+{ 
+	 left: 56px; 
+	 top: 540px; 
+	 position: absolute; 
+	 width: 11px;
+	 height: 17px;
+	 z-index:139;
+} 
+
+ #pulmonary 
+{ 
+	 left: 54px; 
+	 top: 604px; 
+	 position: absolute; 
+	 width: 16px;
+	 height: 13px;
+	 z-index:140;
+} 
+
+ #Rectangle3copy7 
+{ 
+	 left: -2px; 
+	 top: 148px; 
+	 position: absolute; 
+	 width: 338px;
+	 height: 63px;
+	 z-index:141;
+} 
+
+ #Searchhere_0 
+{ 
+	 left: 53px; 
+	 top: 175px; 
+	 position: absolute; 
+	 width: 95px;
+	 height: 12px;
+	 z-index:142;
+} 
+
+ #layer_143 
+{ 
+	 left: 277px; 
+	 top: 172px; 
+	 position: absolute; 
+	 width: 17px;
+	 height: 17px;
+	 z-index:143;
+} 
+
+ #Rectangle1copy 
+{ 
+	 left: 333px; 
+	 top: 148px; 
+	 position: absolute; 
+	 width: 1108px;
+	 height: 495px;
+	 z-index:144;
+} 
+
+ #GradientOverlay 
+{ 
+	 left: 333px; 
+	 top: 148px; 
+	 position: absolute; 
+	 width: 1108px;
+	 height: 495px;
+	 z-index:145;
+} 
+
+ #ImageHolder_0 
+{ 
+	 left: 335px; 
+	 top: 150px; 
+	 position: absolute; 
+	 width: 1105px;
+	 height: 492px;
+	 z-index:146;
+} 
+
+ #Rectangle3 
+{ 
+	 left: 757px; 
+	 top: 463px; 
+	 position: absolute; 
+	 width: 261px;
+	 height: 60px;
+	 z-index:147;
+} 
+
+ #Helpcenter 
+{ 
+	 left: 825px; 
+	 top: 487px; 
+	 position: absolute; 
+	 width: 127px;
+	 height: 13px;
+	 z-index:148;
+} 
+
+ #LoremIpsumissimplydu 
+{ 
+	 left: 506px; 
+	 top: 336px; 
+	 position: absolute; 
+	 width: 765px;
+	 height: 65px;
+	 z-index:149;
+} 
+
+ #Get24HoursUrgentMedi 
+{ 
+	 left: 615px; 
+	 top: 271px; 
+	 position: absolute; 
+	 width: 545px;
+	 height: 36px;
+	 z-index:150;
+} 
+
+ #HomeAboutContact 
+{ 
+	 left: 672px; 
+	 top: 98px; 
+	 position: absolute; 
+	 width: 633px;
+	 height: 14px;
+	 z-index:151;
+} 
+
+ #shoppingcart 
+{ 
+	 left: 1375px; 
+	 top: 94px; 
+	 position: absolute; 
+	 width: 21px;
+	 height: 21px;
+	 z-index:152;
+} 
+
+ #Ellipse1 
+{ 
+	 left: 1386px; 
+	 top: 84px; 
+	 position: absolute; 
+	 width: 18px;
+	 height: 18px;
+	 z-index:153;
+} 
+
+ #layer_9 
+{ 
+	 left: 1393px; 
+	 top: 90px; 
+	 position: absolute; 
+	 width: 6px;
+	 height: 7px;
+	 z-index:154;
+} 
+
+ #MedicluseLOGO 
+{ 
+	 left: 135px; 
+	 top: 86px; 
+	 position: absolute; 
+	 width: 132px;
+	 height: 38px;
+	 z-index:155;
+} 
+
+ #Rectangle2 
+{ 
+	 left: -1px; 
+	 top: -1px; 
+	 position: absolute; 
+	 width: 1442px;
+	 height: 62px;
+	 z-index:156;
+} 
+
+ #Rectangle2copy 
+{ 
+	 left: 1249px; 
+	 top: -1px; 
+	 position: absolute; 
+	 width: 192px;
+	 height: 62px;
+	 z-index:157;
+} 
+
+ #Appointment 
+{ 
+	 left: 1303px; 
+	 top: 26px; 
+	 position: absolute; 
+	 width: 108px;
+	 height: 10px;
+	 z-index:158;
+} 
+
+ #layer_159 
+{ 
+	 left: 1282px; 
+	 top: 24px; 
+	 position: absolute; 
+	 width: 12px;
+	 height: 12px;
+	 z-index:159;
+} 
+
+ #phone 
+{ 
+	 left: 53px; 
+	 top: 23px; 
+	 position: absolute; 
+	 width: 14px;
+	 height: 14px;
+	 z-index:160;
+} 
+
+ #layer_0123456789225 
+{ 
+	 left: 76px; 
+	 top: 25px; 
+	 position: absolute; 
+	 width: 111px;
+	 height: 10px;
+	 z-index:161;
+} 
+
+ #Shape1 
+{ 
+	 left: 214px; 
+	 top: 11px; 
+	 position: absolute; 
+	 width: 4px;
+	 height: 37px;
+	 z-index:162;
+} 
+
+ #email 
+{ 
+	 left: 243px; 
+	 top: 23px; 
+	 position: absolute; 
+	 width: 16px;
+	 height: 14px;
+	 z-index:163;
+} 
+
+ #examplegmailcom 
+{ 
+	 left: 267px; 
+	 top: 23px; 
+	 position: absolute; 
+	 width: 135px;
+	 height: 14px;
+	 z-index:164;
+} 
