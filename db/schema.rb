@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171011174686) do
+ActiveRecord::Schema.define(version: 20171021174111) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -347,6 +347,18 @@ ActiveRecord::Schema.define(version: 20171011174686) do
     t.index ["source_id", "source_type"], name: "index_spree_payments_on_source_id_and_source_type"
   end
 
+  create_table "spree_paypal_express_checkouts", id: :serial, force: :cascade do |t|
+    t.string "token"
+    t.string "payer_id"
+    t.string "transaction_id"
+    t.string "state", default: "complete"
+    t.string "refund_transaction_id"
+    t.datetime "refunded_at"
+    t.string "refund_type"
+    t.datetime "created_at"
+    t.index ["transaction_id"], name: "index_spree_paypal_express_checkouts_on_transaction_id"
+  end
+
   create_table "spree_preferences", id: :serial, force: :cascade do |t|
     t.text "value"
     t.string "key"
@@ -586,6 +598,26 @@ ActiveRecord::Schema.define(version: 20171011174686) do
     t.index ["customer_return_id"], name: "index_spree_reimbursements_on_customer_return_id"
     t.index ["number"], name: "index_spree_reimbursements_on_number", unique: true
     t.index ["order_id"], name: "index_spree_reimbursements_on_order_id"
+  end
+
+  create_table "spree_relation_types", id: :serial, force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+    t.string "applies_to"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "spree_relations", id: :serial, force: :cascade do |t|
+    t.integer "relation_type_id"
+    t.string "relatable_type"
+    t.integer "relatable_id"
+    t.string "related_to_type"
+    t.integer "related_to_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.decimal "discount_amount", precision: 8, scale: 2, default: "0.0"
+    t.integer "position"
   end
 
   create_table "spree_return_authorization_reasons", id: :serial, force: :cascade do |t|
