@@ -1,12 +1,93 @@
-<div id="spree-header">
-  <header id="header" data-hook>
-      <div class="row">
-        <%= render partial: 'spree/shared/nav_bar' %>
+<!-- header -->
+  <div class="agileits_header">
+    <div class="w3l_offers">
+      <div class="medicplus_logo_products_left1">
+        <ul class="phone_email">
+          <li><i class="fa fa-phone" aria-hidden="true"></i>(+0123) 234 567</li>
+          <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:store@medicplus.com">example@gmail.com</a></li>
+        </ul>
       </div>
-    <div class="container">
     </div>
-  </header>
-    <%= render partial: 'spree/shared/main_nav_bar' %>
-  <div class="container">
+    
+    
+    <div class="w3l_header_right1">
+      <h2><a href="#"><i class="fa fa-plus"></i>APPOINTMENT</a></h2>
+    </div>
+    <div class="clearfix"> </div>
   </div>
-</div>
+<!-- script-for sticky-nav -->
+  <script>
+  $(document).ready(function() {
+     var navoffeset=$(".agileits_header").offset().top;
+     $(window).scroll(function(){
+      var scrollpos=$(window).scrollTop(); 
+      if(scrollpos >=navoffeset){
+        $(".agileits_header").addClass("fixed");
+      }else{
+        $(".agileits_header").removeClass("fixed");
+      }
+     });
+     
+  });
+  </script>
+<!-- //script-for sticky-nav -->
+  <div class="logo_products">
+    <div class="container">
+      <div class="medicplus_logo_products_left">
+        <h1><a href="#"><img src="assets/logo.png"></a></h1>
+      </div>
+      <div class="pull-right medicplus_logo_products_right ">
+        <div class="row">
+          <div class="col-md-11">
+            <ul class="nav nav-pills pull-right">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#">Schedule</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#">Media</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#">Doctor</a>
+              </li>                                     
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pharmacy</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#">Notice</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>                                               
+            </ul>           
+          </div>
+          <div class="col-md-1">
+            <div class="product_list_header viewcart">  
+              <form action="#" method="post" class="last">
+                        <fieldset>
+                            <input type="hidden" name="cmd" value="_cart" />
+                            <input type="hidden" name="display" value="1" />
+                            <input type="submit" name="submit" value="" class="button" />
+                            <span class="badge">3</span>
+                        </fieldset>
+                    </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+<!-- //header -->

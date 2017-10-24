@@ -1,14 +1,571 @@
 <% @body_id = 'home-page' %>
-<% content_for :sidebar do %>
-  <div data-hook="homepage_sidebar_navigation">
-  	<%= render partial: 'spree/shared/search' %>
-    <%= render partial: 'spree/shared/taxonomies' %>
-  </div>
-<% end %>
+<body>
 
-<div data-hook="homepage_products">
-  <% cache(cache_key_for_products) do %>
-    <%= render partial: 'spree/shared/products', locals: { products: @products } %>
-  <% end %>
-</div>
+<!-- banner -->
+	<div class="banner">
+		<div class="w3l_banner_nav_left">
+			<div style="background: #ebebeb">
+				<div class="w3l_search">
+				<form action="#" method="post">
+					<input type="text" name="Product" value="Search a product..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search a product...';}" required="">
+					<input type="submit" value=" ">
+				</form>
+				</div><div class="clearfix"></div>
+			</div>
+			
+			<nav class="navbar nav_bottom">
+			
+			 <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header nav_2">
+				  <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+			   </div> 
+			   <!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+					<ul class="nav navbar-nav navbar-nav-new nav_1">
+						<li><a href="#">Dental<i class="fa fa-angle-right pull-right"></i></a></li>
+						<li class="urology"><a href="#">Urology<i class="fa fa-angle-right pull-right"></i></a></li>
+						<li class="pediatric"><a href="#">Pediatric<i class="fa fa-angle-right pull-right"></i></a></li>
+						
+						<li class="cardiology"><a href="#">Cardiology<i class="fa fa-angle-right pull-right"></i></a></li>
+						<li class="neurology"><a href="#">Neurologist<i class="fa fa-angle-right pull-right"></i></a></li>
+						
+						<li class="otology"><a href="#">Otology<i class="fa fa-angle-right pull-right"></i></a></li>
+						
+						<li class="pulmonary"><a href="#">Pulmonary<i class="fa fa-angle-right pull-right"></i></a></li>
+					</ul>
+				 </div><!-- /.navbar-collapse -->
+			</nav>
+		</div>
+		<div class="w3l_banner_nav_right">
+			<section class="slider">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<div class="w3l_banner_nav_right_banner">
+								<h3>Get 24 Hours Urgent Medicine </h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								<div class="more">
+									<a href="#" class="button--saqui button--round-l button--text-thick" data-text="Help center">Help center</a>
+								</div>
+							</div>
+						</li>
+						
+					</ul>
+				</div>
+			</section>
+			
+		</div>
+		<div class="clearfix"></div>
+	</div>
+<!-- banner -->
+	
+<!-- Last-viewed -->
+	<div class="last-viewed">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9"></div>
+				<div class="col-md-3">
+					<div class="input-group">
+				      <div class="input-group-btn">
+				        <button type="button" class="btn btn-grey dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All <span class="caret"></span></button>
+				        <ul class="dropdown-menu">
+				          <li><a href="#">Category 1</a></li>
+				          <li><a href="#">Category 2</a></li>
+				          <li><a href="#">Category 3</a></li>
+				          <li role="separator" class="divider"></li>
+				          <li><a href="#">Category 4</a></li>
+				        </ul>
+				      </div><!-- /btn-group -->
+				      <input type="text" class="form-control" placeholder="Search here..">
+						<span class="input-group-btn">
+				        	<button class="btn btn-default btn-blue" type="button">Go!</button>
+				      	</span>				      
+				    </div><!-- /input-group -->						
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-9">
+					<h3>Last Viewed</h3>
+				</div>
+			</div>
+			
+			<div class="agile_top_brands_grids">
+				<div class="col-md-5th-1 col-sm-4 col-md-offset-0 col-sm-offset-2 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block" >
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="assets/1.png" /></a>		
+											
+										</div>
+										<div class="snipcart-content">
+											<p>Medicine name here</p>
+											<h4><a href="#">$7.99</a> </h4>
+											<a href="" class="btn btn-default btn-block btn-md add-view loadmore">Add to Cart <i class="fa fa-plus"></i></a>
+											<a href="" class="btn btn-default btn-block btn-md loadmore add-view quick-view">Quick View <i class="fa fa-eye"></i></a>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>			
+				<div class="col-md-5th-1 col-sm-4 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block" >
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="assets/1.png" /></a>		
+										</div>
+										<div class="snipcart-content">
+											<p>Medicine name here</p>
+											<h4><a href="#">$7.99</a> </h4>
+											<a href="" class="btn btn-default btn-block btn-md add-view loadmore">Add to Cart <i class="fa fa-plus"></i></a>
+											<a href="" class="btn btn-default btn-block btn-md loadmore add-view quick-view">Quick View <i class="fa fa-eye"></i></a>
+										</div>										
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5th-1 col-sm-4 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block" >
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="assets/1.png" /></a>		
+											
+										</div>
+										<div class="snipcart-content">
+											<p>Medicine name here</p>
+											<h4><a href="#">$7.99</a> </h4>
+											<a href="" class="btn btn-default btn-block btn-md add-view loadmore">Add to Cart <i class="fa fa-plus"></i></a>
+											<a href="" class="btn btn-default btn-block btn-md loadmore add-view quick-view">Quick View <i class="fa fa-eye"></i></a>
+										</div>										
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5th-1 col-sm-4 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="assets/1.png" /></a>		
+											
+										</div>
+										<div class="snipcart-content">
+											<p>Medicine name here</p>
+											<h4><a href="#">$7.99</a> </h4>
+											<a href="" class="btn btn-default btn-block btn-md add-view loadmore">Add to Cart <i class="fa fa-plus"></i></a>
+											<a href="" class="btn btn-default btn-block btn-md loadmore add-view quick-view">Quick View <i class="fa fa-eye"></i></a>
+										</div>										
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5th-1 col-sm-4 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="assets/1.png" /></a>		
+											
+										</div>
+										<div class="snipcart-content">
+											<p>Medicine name here</p>
+											<h4><a href="#">$7.99</a> </h4>
+											<a href="" class="btn btn-default btn-block btn-md add-view loadmore">Add to Cart <i class="fa fa-plus"></i></a>
+											<a href="" class="btn btn-default btn-block btn-md loadmore add-view quick-view">Quick View <i class="fa fa-eye"></i></a>
+										</div>										
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //last-viewed -->
+<!-- Neurologist -->
+	<div class="last-viewed">
+		<div class="container">
+			
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Neurologist</h3>
+				</div>
+				<div class="col-md-6">
+					<a href="" class="pull-right see-all">See all <i class="fa fa-caret-right"></i></a>
+				</div>
+			</div>			
+			<div class="agile_top_brands_grids">
+				<div class="col-md-5th-1 col-sm-4 col-md-offset-0 col-sm-offset-2 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block" >
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="assets/1.png" /></a>		
+											
+										</div>
+										<div class="snipcart-content">
+											<p>Medicine name here</p>
+											<h4><a href="#">$7.99</a> </h4>
+											<a href="" class="btn btn-default btn-block btn-md add-view loadmore">Add to Cart <i class="fa fa-plus"></i></a>
+											<a href="" class="btn btn-default btn-block btn-md loadmore add-view quick-view">Quick View <i class="fa fa-eye"></i></a>
+										</div>										
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>			
+				<div class="col-md-5th-1 col-sm-4 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block" >
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="assets/1.png" /></a>		
+											
+										</div>
+										<div class="snipcart-content">
+											<p>Medicine name here</p>
+											<h4><a href="#">$7.99</a> </h4>
+											<a href="" class="btn btn-default btn-block btn-md add-view loadmore">Add to Cart <i class="fa fa-plus"></i></a>
+											<a href="" class="btn btn-default btn-block btn-md loadmore add-view quick-view">Quick View <i class="fa fa-eye"></i></a>
+										</div>										
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5th-1 col-sm-4 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block" >
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="assets/1.png" /></a>		
+											
+										</div>
+										<div class="snipcart-content">
+											<p>Medicine name here</p>
+											<h4><a href="#">$7.99</a> </h4>
+											<a href="" class="btn btn-default btn-block btn-md add-view loadmore">Add to Cart <i class="fa fa-plus"></i></a>
+											<a href="" class="btn btn-default btn-block btn-md loadmore add-view quick-view">Quick View <i class="fa fa-eye"></i></a>
+										</div>										
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5th-1 col-sm-4 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="assets/1.png" /></a>		
+											
+										</div>
+										<div class="snipcart-content">
+											<p>Medicine name here</p>
+											<h4><a href="#">$7.99</a> </h4>
+											<a href="" class="btn btn-default btn-block btn-md add-view loadmore">Add to Cart <i class="fa fa-plus"></i></a>
+											<a href="" class="btn btn-default btn-block btn-md loadmore add-view quick-view">Quick View <i class="fa fa-eye"></i></a>
+										</div>										
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5th-1 col-sm-4 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="assets/1.png" /></a>		
+											
+										</div>
+										<div class="snipcart-content">
+											<p>Medicine name here</p>
+											<h4><a href="#">$7.99</a> </h4>
+											<a href="" class="btn btn-default btn-block btn-md add-view loadmore">Add to Cart <i class="fa fa-plus"></i></a>
+											<a href="" class="btn btn-default btn-block btn-md loadmore add-view quick-view">Quick View <i class="fa fa-eye"></i></a>
+										</div>										
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //Neurologist -->
+
+<!-- Cardiology -->
+	<div class="last-viewed last-paddingbtm">
+		<div class="container">
+			
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Cardiology</h3>
+				</div>
+				<div class="col-md-6">
+					<a href="" class="pull-right see-all">See all <i class="fa fa-caret-right"></i></a>
+				</div>
+			</div>			
+			<div class="agile_top_brands_grids">
+				<div class="col-md-5th-1 col-sm-4 col-md-offset-0 col-sm-offset-2 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block" >
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="assets/1.png" /></a>		
+											
+										</div>
+										<div class="snipcart-content">
+											<p>Medicine name here</p>
+											<h4><a href="#">$7.99</a> </h4>
+											<a href="" class="btn btn-default btn-block btn-md add-view loadmore">Add to Cart <i class="fa fa-plus"></i></a>
+											<a href="" class="btn btn-default btn-block btn-md loadmore add-view quick-view">Quick View <i class="fa fa-eye"></i></a>
+										</div>										
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>			
+				<div class="col-md-5th-1 col-sm-4 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block" >
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="assets/1.png" /></a>		
+											
+										</div>
+										<div class="snipcart-content">
+											<p>Medicine name here</p>
+											<h4><a href="#">$7.99</a> </h4>
+											<a href="" class="btn btn-default btn-block btn-md add-view loadmore">Add to Cart <i class="fa fa-plus"></i></a>
+											<a href="" class="btn btn-default btn-block btn-md loadmore add-view quick-view">Quick View <i class="fa fa-eye"></i></a>
+										</div>										
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5th-1 col-sm-4 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block" >
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="assets/1.png" /></a>		
+											
+										</div>
+										<div class="snipcart-content">
+											<p>Medicine name here</p>
+											<h4><a href="#">$7.99</a> </h4>
+											<a href="" class="btn btn-default btn-block btn-md add-view loadmore">Add to Cart <i class="fa fa-plus"></i></a>
+											<a href="" class="btn btn-default btn-block btn-md loadmore add-view quick-view">Quick View <i class="fa fa-eye"></i></a>
+										</div>										
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5th-1 col-sm-4 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="assets/1.png" /></a>		
+
+										</div>
+										<div class="snipcart-content">
+											<p>Medicine name here</p>
+											<h4><a href="#">$7.99</a> </h4>
+											<a href="" class="btn btn-default btn-block btn-md add-view loadmore">Add to Cart <i class="fa fa-plus"></i></a>
+											<a href="" class="btn btn-default btn-block btn-md loadmore add-view quick-view">Quick View <i class="fa fa-eye"></i></a>
+										</div>										
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5th-1 col-sm-4 top_brand_left">
+					<div class="hover14 column">
+						<div class="agile_top_brand_left_grid">
+							
+							<div class="agile_top_brand_left_grid1">
+								<figure>
+									<div class="snipcart-item block">
+										<div class="snipcart-thumb">
+											<a href="#"><img title=" " alt=" " src="assets/1.png" /></a>		
+											
+										</div>
+										<div class="snipcart-content">
+											<p>Medicine name here</p>
+											<h4><a href="#">$7.99</a> </h4>
+											<a href="" class="btn btn-default btn-block btn-md add-view loadmore">Add to Cart <i class="fa fa-plus"></i></a>
+											<a href="" class="btn btn-default btn-block btn-md loadmore add-view quick-view">Quick View <i class="fa fa-eye"></i></a>
+										</div>										
+									</div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<a href="" class="btn btn-default btn-md loadmore">Load more</a>
+				</div>
+			
+			</div>			
+		</div>
+		
+	</div>
+<!-- //Cardiology -->
+
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="col-md-2 w3_footer_grid">
+				<h3>Help</h3>
+				<ul class="w3_footer_grid_list">
+					<li><a href="events.html">Help Center</a></li>
+					<li><a href="about.html">Support</a></li>
+					<li><a href="products.html">Contact</a></li>
+					<li><a href="services.html">FAQ</a></li>
+					<li><a href="short-codes.html">Affiliate</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 w3_footer_grid">
+				<h3>Policy </h3>
+				<ul class="w3_footer_grid_list">
+					<li><a href="faqs.html">Terms</a></li>
+					<li><a href="privacy.html">Payment</a></li>
+					<li><a href="privacy.html">Refunds</a></li>
+					<li><a href="privacy.html">Security</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 w3_footer_grid">
+				<h3>Community</h3>
+				<ul class="w3_footer_grid_list">
+					<li><a href="pet.html">Blog</a></li>
+					<li><a href="frozen.html">Forums</a></li>
+					<li><a href="kitchen.html">Meetups</a></li>
+					<li><a href="products.html">Careers</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-md-6 w3_footer_grid">
+				<h3>About</h3>
+				<p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts and in general the content of dummy text is nonsensical. Typefaces and layouts and in general the content of dummy text is nonsensical.</p>
+			</div>
+			<div class="clearfix"> </div>
+			
+			
+		</div>
+		<div class="wthree_footer_copy">
+			<p>&copy; 2017 Medicplus - A.h Asif.  All Rights Reserved.</p>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- Bootstrap Core JavaScript -->
+
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+
+</body>
+
+
 
